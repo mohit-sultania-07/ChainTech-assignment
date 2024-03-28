@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* -----------------  BODY  --------------------------------------------- */
+
+body{
+    background-color: #060606;
+    overflow-x: hidden;
+}
+
+/* ------------------  HEADER  ---------------------------------------------- */
+
+header{
+    height: 6.125rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0.95px solid #1F1F1F;
+}
+
+#nav{
+    display: flex;
+    gap:4.688rem;
+}
+
+#nav li{
+    list-style-type: none;
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.688rem;
+}
+
+#nav li a:hover{
+    color: #00FFA7;
+}
+
+/* ------------------  HERO  ---------------------------------------------- */
+
+.hero{
+    text-align: center;
+    height:35rem;
+}
+
+.hero h1{
+    font-weight:900;
+    font-size: 7.5rem;
+    color: #FFFFFF;
+    line-height: 8rem;
+    margin-top: 5rem;
+    margin-bottom:1rem;
+}
+
+.hero h1 span{
+    font-weight: 800;
+    background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero p{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.712rem;
+    color: #fff;
+    letter-spacing: 0.06em;
+}
+
+.hero button{
+    height:4.129rem;
+    width: 13.248rem;
+    border-radius: 3.125rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top:2rem !important;
+    border: 3px solid #000;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* ------------------  OFFER  ---------------------------------------------- */
+
+.offer{
+    background-color: #fff;
+}
+
+img{
+    width:16.313rem;
+    height:9.75rem;
+    object-fit: cover;
+}
+
+.offer h1{
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 4.419rem;
+    text-align: left;
+    padding-top: 5.625rem;
+    margin-left: 8.8rem;
+}
+
+.offer-p{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.591rem;
+    text-align: left;
+    margin-bottom:3rem;
+    margin-left:8.8rem;
+}
+
+.offer-part{
+    display: flex;
+    gap:1rem;
+}
+
+.offer-sec{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+}
+
+.offer-card{
+    border: 3px solid #000000;
+    border-radius: 1.25rem;
+    width: 18.313rem;
+    height:25.125rem;
+}
+
+.offer-para{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 3.563rem;
+}
+
+.offer-para p{
+    font-size: 0.938rem;
+    font-weight: 600;
+    line-height: 1.326rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:0.6rem;
+    margin-left: 1rem;
+}
+
+.offer-btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 3.3rem;
+}
+
+.arr-abs{
+    position: absolute;
+    margin-left:4.8rem
+}
+
+.vector-c{
+    position: absolute;
+    margin-right: 8.8rem;
+}
+
+.vector-h{
+    position: absolute;
+    margin-right:8.4rem;
+}
+
+.offer-btn button{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.238rem;
+    height: 2.409rem;
+    width:7.563rem;
+    border-radius: 3.125rem;
+    border:2px solid black;
+    margin-right: 0.826rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offer-btn button:hover{
+    background-color: black;
+    color:white;
+}
+
+.offer-img{
+    border-bottom: 2px solid black;
+    margin-top: 2.313rem;
+}
+
+.card-1{
+    background: rgb(43, 255, 138, 15%);
+}
+
+.card-2{
+    background: rgb(0, 240, 255, 15%);
+}
+
+.card-3{
+    background: rgb(252, 89, 89, 15%);
+}
+
+.card-4{
+    background: rgb(45,69,230, 15%);
+}
+
+.offer-heading{
+    text-align: center;
+}
+
+.offer-sec{
+    padding-bottom: 3rem;
+}
+
+.offer-heading h5{
+    font-size: 1.438rem;
+    font-weight: 600;
+    line-height: 1.515rem;
+    margin-top:2.75rem
+}
+
+/* ------------------  FOOTER  ---------------------------------------------- */
+
+footer{
+    text-align: center;
+}
+
+footer svg{
+    margin-top:4.25rem;
+    margin-bottom: 2.546rem;
+}
+
+.line{
+    border: 1px solid #5E5E5E;
+    width:70rem;
+    margin:auto;
+}
+
+footer p{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: 1.563rem;
+margin-top: 2.313rem;
+margin-bottom: 3.063rem;
+}
+
+.copy-right{
+    color: #98A6AC;
+}
+
+/* -------------------  END  ------------------------------------------------- */
